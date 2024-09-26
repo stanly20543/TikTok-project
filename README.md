@@ -38,10 +38,10 @@ To determine whether there is a statistically significant difference in the numb
 -**Conclusion**:<br>
 There might be fundamental behavioral differences between these two groups: **_verified accounts_** and **_unverified accounts_**.<br> 
 
-### **Part4: Build linear regression model**
+### **Part4: Build logistic regression model**
 
 -**Target**:<br>
- To explore how to predict verified status to help them understand how video characteristics relate to verified users. The results may be used to inform the final model related to predicting whether a video is a claim vs an opinion.<br>
+ To explore how to predict verified status to understand how video characteristics relate to verified users. The results may be used to inform the final model related to predicting whether a video is a claim vs an opinion.<br>
 
 -**Conclusion**:<br>
  From the logistic regression, beside `claim_status` and `author_ban_status`, longer videos tend to be associated with higher odds of the user being verified.<br>
